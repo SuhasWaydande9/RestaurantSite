@@ -32,7 +32,7 @@ function PrimaryButton(){
 export default class MainContent extends React.Component {
 
   render() {
-    return <div className="Main-Container">
+    return <div className="Main-Container-Home">
         <LeftSide />
         <RightSide />
     </div>

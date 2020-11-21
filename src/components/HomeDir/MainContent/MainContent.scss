@@ -1,4 +1,4 @@
-.Main-Container{
+.Main-Container-Home{
     width: 100%;
     height: calc(100vh - 60px);
     display: flex;
@@ -78,7 +78,7 @@
 
 
 @media screen and (max-width:768px) and (orientation:portrait){
-    .Main-Container{
+    .Main-Container-Home{
         flex-direction: column;
     }
 

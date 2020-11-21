@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Chicken Handi",
+    "price": 135,
+    "about": "Kaju katli is Made Of Kaju and Katli. which is indian sweet food which is very tasty indeed.",
+    "img": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ic1ayiknsw3vq04fdsmp"
+  },
+  {
+    "name": "Vadapav",
+    "price": 10.5,
+    "about": "Vadapav Is Maharashtrian Fast Food which is made using boiled potatos and some spices. Like a Burger.",
+    "img": "https://img.freepik.com/free-photo/indian-famous-street-food-vada-pav_55610-2880.jpg?size=626&ext=jpg"
+  },
+  {
+    "name": "Chicken 65",
+    "price": 60,
+    "about": "Chicken 65 is Chinese food. where Chicken peices are fried with some masala on it.",
+    "img": "https://www.recipehub.in/wp-content/uploads/2020/07/chicken65-3website.jpg"
+  },
+  {
+    "name": "Chicken Rice",
+    "price": 105,
+    "about": "Chicken Rice is Made with fried Chicken peices mixed with Rice and Then Fried again with some masala over it.",
+    "img": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/9/3/KC1807_Sunnys-Grilled-Sweet-and-Spicy-Chicken-Thighs-and-Rice_s4x3.jpg.rend.hgtvcom.826.620.suffix/1536092264187.jpeg"
+  },
+  {
+    "name": "Chicken Thali",
+    "price": 145,
+    "about": "Chicken Thali is Like Most indian Thalis where you get chiken Soup and some Dry fried chiken with rice and Rottis.",
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/0e/4c/d0/1f/vegetarian-thali.jpg"
+  },
+  {
+    "name": "Mutton Biryani",
+    "price": 150,
+    "about": "Mutton Biryani is Made with goat meat where you cook rice and Mutton together with all kind of Masalas.",
+    "img": "https://theyummydelights.com/wp-content/uploads/2018/09/mutton-biryani-recipe.jpg"
+  },
+  {
+    "name": "Biryani",
+    "price": 100,
+    "about": "Birayani is Made by Cooking rich with chicken With All kind of masalas.",
+    "img": "https://www.awesomecuisine.com/wp-content/uploads/2007/10/Chicken-Biryani_resized.jpg"
+  },
+  {
+    "name": "bhel",
+    "price": 30,
+    "about": "Bhel is Another fast food of maharashtra where Meva is mixed with spices and served.",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/2/20/Indian_cuisine-Chaat-Bhelpuri-03.jpg"
+  }
+]
