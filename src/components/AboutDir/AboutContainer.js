@@ -4,7 +4,7 @@ import "./AboutPage.scss"
 const AboutPage = props => {
   return (
     <div className="AboutContainer">
-      <img src="/PngItem_1961197.png"></img>
+      <img src="/PngItem_1961197.png" alt="ReasaurantSite Image"></img>
       <div className="About-Content">
         <h2>About Me</h2>
         <p>
@@ -24,6 +24,7 @@ const AboutPage = props => {
               <a
                 href="https://www.facebook.com/suhas.waydande.75"
                 target="_blank"
+                rel="noreferrer"
               >
                 Facebook
               </a>
@@ -32,6 +33,7 @@ const AboutPage = props => {
               <a
                 href="https://www.instagram.com/suhas_waydande_97/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Instagram
               </a>
@@ -40,6 +42,7 @@ const AboutPage = props => {
               <a
                 href="https://in.linkedin.com/in/suhas-waydande-0758391a0"
                 target="_blank"
+                rel="noreferrer"
               >
                 LinkedIn
               </a>
@@ -48,12 +51,20 @@ const AboutPage = props => {
           <div>
             <p>Business Accounts</p>
             <li>
-              <a href="https://github.com/SuhasWaydande9" target="_blank">
+              <a
+                href="https://github.com/SuhasWaydande9"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Github
               </a>
             </li>
             <li>
-              <a href="https://www.fiverr.com/mr_dev_sam" target="_blank">
+              <a
+                href="https://www.fiverr.com/mr_dev_sam"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Fiver
               </a>
             </li>

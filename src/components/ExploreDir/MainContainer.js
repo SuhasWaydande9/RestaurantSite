@@ -1,8 +1,6 @@
 import React from "react"
 import "./MainContainer.scss"
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-
 let DishCard = props => {
   return (
     <div className="Dishes-Card" key={props.id}>
@@ -27,38 +25,28 @@ let DishCard = props => {
 }
 
 export default class MainContainer extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-
   render() {
     return (
-      <Router>
-        <Switch>
-          <Route path="/">
-            <div className="Main-Container-Explore">
-              {this.props.data
-                ? this.props.data.map(TheDish => {
-                    return (
-                      <DishCard
-                        img={TheDish.node.img}
-                        name={TheDish.node.name}
-                        id={TheDish.node.id}
-                        key={TheDish.node.id}
-                        price={TheDish.node.price}
-                        OrderHandle={this.handleOrder}
-                      >
-                        {TheDish.node.about}
-                      </DishCard>
-                    )
-                  })
-                : null}
-            </div>
-          </Route>
-          {/* <Route path="/:id">
-          </Route> */}
-        </Switch>
-      </Router>
+      <div path="/" className="Main-Container-Explore">
+        {this.props.data ? (
+          this.props.data.map(TheDish => {
+            return (
+              <DishCard
+                img={TheDish.node.img}
+                name={TheDish.node.name}
+                id={TheDish.node.id}
+                key={TheDish.node.id}
+                price={TheDish.node.price}
+                OrderHandle={this.handleOrder}
+              >
+                {TheDish.node.about}
+              </DishCard>
+            )
+          })
+        ) : (
+          <div>NO PRODUCTS FOUND</div>
+        )}
+      </div>
     )
   }
 }
