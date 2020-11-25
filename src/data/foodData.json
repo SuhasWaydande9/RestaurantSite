@@ -1,50 +1,50 @@
 [
   {
     "name": "Chicken Handi",
-    "price": 135,
-    "about": "Kaju katli is Made Of Kaju and Katli. which is indian sweet food which is very tasty indeed.",
+    "price": 300,
+    "about": "Chicken Handi (Restaurant Style Murgh Handi) is one of the popular curries in India. It is mild and creamy (without adding cream) and very flavourful. This restaurant style Chicken Handi made with lots of yogurt and coriander seeds is fairly easy to prepare and makes a perfect week night meal or entertain guests.",
     "img": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ic1ayiknsw3vq04fdsmp"
   },
   {
     "name": "Vadapav",
-    "price": 10.5,
-    "about": "Vadapav Is Maharashtrian Fast Food which is made using boiled potatos and some spices. Like a Burger.",
+    "price": 20,
+    "about": "Vada pav, alternatively spelt wada pao, (About this soundlisten) is a vegetarian fast food dish native to the state of Maharashtra. The dish consists of a deep fried potato dumpling placed inside a bread bun (pav) sliced almost in half through the middle. It is generally accompanied with one or more chutneys and a green chili pepper. Although it originated as cheap street food in Mumbai, it is now served in food stalls and restaurants across India. It is also called Bombay burger in keeping with its origins and its resemblance in physical form to a burger.",
     "img": "https://img.freepik.com/free-photo/indian-famous-street-food-vada-pav_55610-2880.jpg?size=626&ext=jpg"
   },
   {
     "name": "Chicken 65",
-    "price": 60,
-    "about": "Chicken 65 is Chinese food. where Chicken peices are fried with some masala on it.",
+    "price": 80,
+    "about": "Chicken 65 is a spicy, deep-fried chicken dish originating from Hotel Buhari, Chennai, India, as an entrée, or quick snack. The flavour of the dish can be attributed to red chillies, but the exact set of ingredients for the recipe can vary.",
     "img": "https://www.recipehub.in/wp-content/uploads/2020/07/chicken65-3website.jpg"
   },
   {
-    "name": "Chicken Rice",
-    "price": 105,
-    "about": "Chicken Rice is Made with fried Chicken peices mixed with Rice and Then Fried again with some masala over it.",
+    "name": "Fried Chicken Rice",
+    "price": 120,
+    "about": "Fried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat. It is often eaten by itself or as an accompaniment to another dish. Fried rice is a popular component of East Asian, Southeast Asian and certain South Asian cuisines. As a homemade dish, fried rice is typically made with ingredients left over from other dishes, leading to countless variations. Fried rice first developed during the Sui Dynasty in China and as such all fried rice dishes can trace their origins to Chinese fried rice.[1]",
     "img": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/9/3/KC1807_Sunnys-Grilled-Sweet-and-Spicy-Chicken-Thighs-and-Rice_s4x3.jpg.rend.hgtvcom.826.620.suffix/1536092264187.jpeg"
   },
   {
     "name": "Chicken Thali",
-    "price": 145,
-    "about": "Chicken Thali is Like Most indian Thalis where you get chiken Soup and some Dry fried chiken with rice and Rottis.",
+    "price": 140,
+    "about": "Chicken Thali is Like Most indian Thalis where you get chicken Soup and some Dry fried chicken with rice and Rottis.",
     "img": "https://media-cdn.tripadvisor.com/media/photo-s/0e/4c/d0/1f/vegetarian-thali.jpg"
   },
   {
-    "name": "Mutton Biryani",
-    "price": 150,
-    "about": "Mutton Biryani is Made with goat meat where you cook rice and Mutton together with all kind of Masalas.",
-    "img": "https://theyummydelights.com/wp-content/uploads/2018/09/mutton-biryani-recipe.jpg"
-  },
-  {
     "name": "Biryani",
-    "price": 100,
-    "about": "Birayani is Made by Cooking rich with chicken With All kind of masalas.",
+    "price": 150,
+    "about": "Biryani is a mixed rice dish. It is made with Indian spices, rice, and meat, and sometimes, in addition, eggs and/or potatoes in certain regional varieties. Biryani is popular throughout the Indian subcontinent, as well as among its diaspora.",
     "img": "https://www.awesomecuisine.com/wp-content/uploads/2007/10/Chicken-Biryani_resized.jpg"
   },
   {
-    "name": "bhel",
-    "price": 30,
-    "about": "Bhel is Another fast food of maharashtra where Meva is mixed with spices and served.",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/2/20/Indian_cuisine-Chaat-Bhelpuri-03.jpg"
+    "name": "Fried Fish",
+    "price": 150,
+    "about": "Fried fish refers to any fish or shellfish that has been prepared by frying. Often, the fish is covered in batter, egg and breadcrumbs, flour, or herbs and spices before being fried and served, often with a slice of lemon. Fish is fried in many parts of the world, and fried fish is an important food in many cuisines.",
+    "img": "https://s3.ap-south-1.amazonaws.com/zopnow-uploads/basha%20tawa%20fry-20180514-041345.jpg"
+  },
+  {
+    "name": "Egg Curry",
+    "price": 200,
+    "about": "Egg Curry is made With Boiled Eggs and All Sorts Of Masalas and Spices. and it is very Popular Among Us.",
+    "img": "https://media.eggs.ca/assets/RecipeThumbs/_resampled/FillWyIxMjgwIiwiNzIwIl0/Bengali-Five-Spice-Anda-Aloo-Curry-CMS.jpg"
   }
 ]

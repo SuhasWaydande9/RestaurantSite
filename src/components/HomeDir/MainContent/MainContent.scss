@@ -1,10 +1,10 @@
-.Main-Container-Home{
-    width: 100%;
-    height: calc(100vh - 60px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+.Main-Container-Home {
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 // .Main-Container {
@@ -12,92 +12,90 @@
 //     overflow: hidden;
 // }
 
-.LeftSide{
-    flex: 1;
+.LeftSide {
+  flex: 1;
 }
 .in-leftContainer {
-    padding: 7vw;
+  padding: 7vw;
 
-    h1{
-        font-size: calc(3vw + 3vh);
-    }
+  h1 {
+    font-size: calc(3vw + 3vh);
+  }
 
-    p{
-        font-size: calc(1vw + 1vh);
-    }
+  p {
+    font-size: calc(1vw + 1vh);
+  }
 
-    button {
-        background-image: linear-gradient(180deg, #ff6b6b, #ff8787);
-        border-style: none;
-        height: 40px;
-        border-radius: 10px;
-        margin: 15px 0px;
-        border: 1px solid #0000004d;
-        a {
-            padding: 0px 15px;
-            height: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-decoration: none;
-            color: white;
-            font-size: 1.2em;
-        }
+  button {
+    background-image: linear-gradient(180deg, #ff6b6b, #ff8787);
+    border-style: none;
+    height: 40px;
+    border-radius: 10px;
+    margin: 15px 0px;
+    border: 1px solid #0000004d;
+    a {
+      padding: 0px 15px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+      font-size: 1.2em;
     }
+  }
 }
 
-.RightSide{
-    overflow: hidden;
+.RightSide {
+  overflow: hidden;
 
-    #Dish-Image{
-        // background-image: url("../../images/Meal-PNG-Photo.png");
-        background-image: url("../../../images/Healthy-Meal.png");
-        width: calc(24vw + 25vh);
-        height: calc(25vw + 25vh);
-        background-size: cover;
-        background-position: center;
-        z-index: 1;
-        /* padding: 50px; */
-        margin: 50px;
-        position: relative;
-        box-shadow: 8px 8px 8px black;
-        background-repeat: no-repeat;
-        border-radius: 50%;
-    }
+  #Dish-Image {
+    // background-image: url("../../images/Meal-PNG-Photo.png");
+    background-image: url("../../../images/Healthy-Meal.png");
+    width: calc(24vw + 25vh);
+    height: calc(25vw + 25vh);
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    /* padding: 50px; */
+    margin: 50px;
+    position: relative;
+    box-shadow: 8px 8px 8px black;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+  }
 }
 
 #Circle {
-    width: calc(50vw + 50vh);
-    height: calc(50vw + 50vh);
-    background-color: #2d2d2d;
-    border-radius: 50%;
-    position: absolute;
-    top: 35vh;
-    right: -50vh;
+  width: calc(50vw + 50vh);
+  height: calc(50vw + 50vh);
+  background-color: #2d2d2d;
+  border-radius: 50%;
+  position: fixed;
+  top: 35vh;
+  right: -50vh;
 }
 
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  .Main-Container-Home {
+    flex-direction: column;
+  }
 
-@media screen and (max-width:768px) and (orientation:portrait){
-    .Main-Container-Home{
-        flex-direction: column;
+  .in-leftContainer {
+    padding: 7vw;
+
+    h1 {
+      font-size: calc(4vw + 4vh);
     }
 
-    .in-leftContainer {
-        padding: 7vw;
-
-        h1{
-            font-size: calc(4vw + 4vh);
-        }
-
-        p{
-        font-size: calc(1.5vw + 1.5vh);
-        }
+    p {
+      font-size: calc(1.5vw + 1.5vh);
     }
+  }
 }
 
-@media screen and (max-width:768px){
-    #Circle{
-        position: fixed;
-    }
+@media screen and (max-width: 768px) {
+  #Circle {
+    position: fixed;
+  }
 }
-

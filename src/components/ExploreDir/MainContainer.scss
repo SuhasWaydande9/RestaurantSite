@@ -1,16 +1,10 @@
-body {
-  overflow: auto;
-  border: none;
-  overflow-x: hidden;
-}
-
 .Main-Container-Explore {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   height: calc(100vh - 60px);
-  gap: 2vw;
+  gap: 6vw;
   max-width: 1440px;
   margin: 0px auto;
   padding: 80px 0px;
@@ -78,6 +72,8 @@ body {
   a {
     padding: 8px 19px;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
   }
 
   button {

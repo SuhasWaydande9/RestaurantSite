@@ -1,13 +1,7 @@
 import React from "react"
 import "./MainContainer.scss"
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useParams,
-} from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 let DishCard = props => {
   return (
@@ -24,7 +18,7 @@ let DishCard = props => {
         <p className="AboutDish">{props.children}</p>
         <div className="TheOrder">
           <button>
-            <a id={props.id}>Order</a>
+            <a href={"/products/" + props.id}>Order</a>
           </button>
         </div>
       </div>
