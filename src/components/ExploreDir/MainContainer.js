@@ -13,12 +13,12 @@ let DishCard = props => {
           <p className="DishName">{props.name}</p>
           <p className="DishPrice">{props.price} Rs/-</p>
         </div>
-        <p className="AboutDish">{props.children}</p>
         <div className="TheOrder">
           <button>
             <a href={"/products/" + props.id}>Order</a>
           </button>
         </div>
+        <p className="AboutDish">{props.children}</p>
       </div>
     </div>
   )

@@ -1,32 +1,34 @@
 .MainContainer {
-  display: flex;
-  height: 100%;
   justify-content: center;
   align-items: center;
 }
 
 .TheProduct {
   flex: 2;
-  display: flex;
   padding: 5vh 15vw;
   gap: 40px;
   border-top: 1px solid #bbbbbb;
   border-bottom: 1px solid #bbbbbb;
-  box-shadow: 0px 5px 10px #c3c3c3, 0px -5px 10px #c3c3c3;
+  z-index: -1;
+  background-color: white;
+
 
   img {
     width: calc(25vw + 25vh);
     height: calc(15vw + 15vh);
     border-radius: 35px;
-    box-shadow: -20px 15px 13px #a09b9b;
+    box-shadow: 0px 5px 5px #a09b9b;
     flex: 2;
+    border: 2px solid white;
   }
   .Product-Details {
     padding: 2vw 2vw;
-    flex: 1;
+    flex: 1 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #f3f6ff;
+    border-radius: 10px;
   }
 
   .ProductHeaderName {
@@ -47,8 +49,9 @@
 .ProductInfo {
   line-height: normal;
   p {
-    padding-top: 30px;
-    font-size: calc(1vw + 1vh);
+    margin-top: 30px;
+    font-size: 18px;
+    padding: 20px;
   }
 }
 

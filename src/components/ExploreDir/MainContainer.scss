@@ -13,26 +13,28 @@
 .Dishes-Card {
   width: 300px;
   height: 300px;
-  border: 1px solid #ababab;
   box-shadow: 3px 3px 6px #a7a7a7;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid white;
+}
+
+.Dishes-Card:hover{
+  overflow: scroll;
+}
+
+.Dishes-Card::-webkit-scrollbar {
+  display: none;
 }
 
 .Dish-Image {
   flex: 1;
-  height: 100px;
+  height: 150px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.Dish-Image:hover {
-  // z-index: 1;
-  // position: relative;
-  // height: 100%;
-  transform: scale(1.5);
-
-  background-size: cover;
-  box-shadow: 0px 8px 8px rgb(177, 177, 177);
+  border-radius: 10px;
 }
 
 .Dish-Details {
@@ -63,6 +65,9 @@
     max-height: 70px;
     overflow-y: scroll;
   }
+  .AboutDish::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 .TheOrder {
@@ -73,15 +78,15 @@
     padding: 8px 19px;
     cursor: pointer;
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
   button {
     width: 80px;
     height: 35px;
-    background-color: #6c7298;
+    background-color: #ffffff;
     border: 1px solid #000000;
     border-radius: 5px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
 }
